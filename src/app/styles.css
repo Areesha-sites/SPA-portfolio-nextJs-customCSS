@@ -14,17 +14,13 @@ body {
   position: fixed;
   z-index: 30;
   backdrop-filter: blur(50px);
-  /* margin-right: 20rem; */
   width: 100%;
-  
 }
 .nav-content {
   max-width: 1300px;
   display: flex;
   justify-content: space-between;
   padding: 1rem 0;
-  /* margin: 0 auto; */
-  /* margin-right: -12rem; */
   margin-right: -10rem;
 }
 .nav-logo {
@@ -138,9 +134,10 @@ body {
 }
 @media (max-width:425px) {
   .nav-logo {
-    width: 6rem;
+    width: 4rem;
     height: auto;
-    margin-left: -1rem;
+    margin-left: 2rem;
+    font-size: 2rem;
   }
   .nav-logo h1 {
     font-size: 1.6rem;
@@ -196,9 +193,6 @@ body {
   .nav-content {
     margin-right: 1rem;
   }
-  /* .nav-wrapper {
-    padding-left: 36rem;
-  } */
 
 }
 /* ===============mobile-navbar==================== */
@@ -414,7 +408,16 @@ margin-top: 5rem;
     width: 2rem;
   }
 }
-
+@media (max-width:425px) {
+.hero-content {
+        margin-left: 0.3rem;
+}
+.hero-image  > div > img{
+margin-right: 2rem;
+        width: 14rem;
+        height: 16rem;
+}
+}
 /* ===============skillsCard=============== */
 .skills-card {
   border-radius: 0.65rem;
